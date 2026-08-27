@@ -88,12 +88,11 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* contact */}
           <div>
             <h3 className="text-[12px] font-semibold uppercase tracking-[0.18em] text-gold-200">
               Reach Us
             </h3>
-            <ul className="mt-5 space-y-4 text-[14.5px] text-white/50">
+            <ul className="mt-5 space-y-4 text-[14.5px] text-white/55">
               <li className="flex gap-3">
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-gold-400" />
                 <a href={mapsHref} target="_blank" rel="noopener noreferrer" className="hover:text-gold-100">
@@ -121,6 +120,16 @@ export default function Footer() {
                 <span>{site.timings}</span>
               </li>
             </ul>
+            <div className="mt-5 overflow-hidden rounded-2xl border border-gold-500/15 bg-ink-raised w-full aspect-[21/9] relative">
+              <iframe
+                title={`Map to ${site.clinic}`}
+                src={`https://www.google.com/maps?q=${site.address.mapsQuery}&output=embed`}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                allowFullScreen
+                className="h-full w-full border-0 opacity-75 hover:opacity-100 transition-opacity"
+              />
+            </div>
           </div>
         </div>
 

@@ -7,13 +7,13 @@ import { Reveal, SectionHeading } from "./Section";
 import { waHref } from "@/config/site";
 import { FAQS } from "@/config/faqs";
 
-const FILTERS = ["All", "Implants", "Aligners"] as const;
+const FILTERS = ["Implants", "Aligners"] as const;
 
 export default function FAQ() {
-  const [filter, setFilter] = useState<(typeof FILTERS)[number]>("All");
+  const [filter, setFilter] = useState<(typeof FILTERS)[number]>("Implants");
   const [open, setOpen] = useState<string | null>(FAQS[0].q);
 
-  const visible = filter === "All" ? FAQS : FAQS.filter((f) => f.tag === filter);
+  const visible = FAQS.filter((f) => f.tag === filter);
 
   return (
     <section id="faq" className="scroll-mt-24 relative py-24 sm:py-28">

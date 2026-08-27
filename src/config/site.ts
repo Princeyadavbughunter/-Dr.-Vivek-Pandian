@@ -20,9 +20,9 @@ export const site = {
       "Dr+Vivek's+MSRAM's+Dentistry,+No.+68,+Vallalar+Illam,+Anna+Street,+Chitlapakkam,+Chennai+600064",
   },
   social: {
-    instagram: "https://www.instagram.com/msr_dentistry/",
-    facebook: "https://www.facebook.com/msrdentistry/",
-    youtube: "https://www.youtube.com/@msrdentistry",
+    instagram: "https://www.instagram.com/msr_dentistry?igsi=MTN2OHl5YTN3ZDN4eA==",
+    facebook: "https://www.facebook.com/share/1C4xQXjvj5/",
+    youtube: "https://youtube.com/@msrdentistryimplantcenter?si=6tA5JBKFk82o2qln",
   },
 } as const;
 

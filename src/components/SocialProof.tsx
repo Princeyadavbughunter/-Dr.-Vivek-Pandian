@@ -12,12 +12,29 @@ import { site, mapsHref } from "@/config/site";
  * automatically in place of the "leave a review" prompt.
  */
 type Review = { name: string; text: string; treatment: string };
-const REVIEWS: Review[] = [];
+const REVIEWS: Review[] = [
+  {
+    name: "Sooben Parama",
+    treatment: "Dental Implants",
+    text: "Dr. Vivek, Dr. Aadithi and the entire team were phenomenal. The administrative staff, the technicians were so caring, gentle and skilled. The doctors delivered exceptional care. Everyone played a part in making my implants a real success. I could not be happier with the results. The entire team exceeded my expectations from the consultations to the treatment. Thank you Dr. Vivek's MSRam's Dentistry",
+  },
+  {
+    name: "Rajan N V",
+    treatment: "General & Restorative Care",
+    text: "The best detail service I ever had in my life. The Doctors were very professional and caring. The support staff, though very young were very customer focused. Overall it was a wonderful experience for me. My best wishes for Dr Vivek Pandian and his wonderful team",
+  },
+  {
+    name: "priya .k pri",
+    treatment: "Implants & Root Canal",
+    text: "I underwent an implant procedure and a root canal treatment, both of which were completely painless. The doctor and the entire team did an excellent job. It was a great experience as a patient. Thank you Dr.Ram sir for the treating my tooth with a great care.",
+  }
+
+];
 
 const CHANNELS = [
   { icon: Instagram, label: "Instagram", handle: "@msr_dentistry", href: site.social.instagram },
   { icon: Facebook, label: "Facebook", handle: "MSR Dentistry", href: site.social.facebook },
-  { icon: Youtube, label: "YouTube", handle: "Patient stories", href: site.social.youtube },
+  { icon: Youtube, label: "YouTube", handle: "@msrdentistryimplantcenter", href: site.social.youtube },
 ];
 
 export default function SocialProof() {

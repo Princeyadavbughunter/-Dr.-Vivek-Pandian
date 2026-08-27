@@ -28,26 +28,6 @@ export const FAQS: Faq[] = [
   },
   {
     tag: "Implants",
-    q: "What are All-on-4 and All-on-6 implants?",
-    a: "These techniques use four or six implants to support a full arch of fixed teeth. The appropriate option depends on your bone availability, bite, medical condition and treatment requirements.",
-  },
-  {
-    tag: "Implants",
-    q: "Can implants be placed when there is insufficient bone?",
-    a: "In some cases, bone grafting may be recommended. For severely reduced bone, advanced implant options may be considered.",
-  },
-  {
-    tag: "Implants",
-    q: "Are implants safe for patients with diabetes?",
-    a: "Many patients with well-controlled diabetes may receive implants. Medical clearance and recent blood-test reports may be required before treatment.",
-  },
-  {
-    tag: "Implants",
-    q: "Do you have an in-house dental laboratory?",
-    a: "Yes. Our in-house dental laboratory supports closer coordination between the dentist and laboratory team, helping with shade selection, design, fit and treatment turnaround within a very short duration.",
-  },
-  {
-    tag: "Implants",
     q: "How long do dental implants last?",
     a: "Dental implants can function for many years when treatment is properly planned and the patient maintains good oral hygiene and regular reviews. However, no implant can be guaranteed for life.",
   },

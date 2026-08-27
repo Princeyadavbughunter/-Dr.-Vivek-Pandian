@@ -6,9 +6,9 @@ import ThreeDaySection from "@/components/ThreeDaySection";
 import Treatments from "@/components/Treatments";
 import Pricing from "@/components/Pricing";
 import DoctorProfile from "@/components/DoctorProfile";
+import VideoTestimonials from "@/components/VideoTestimonials";
 import SocialProof from "@/components/SocialProof";
 import BookingForm from "@/components/BookingForm";
-import VisitUs from "@/components/VisitUs";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
 import FloatingCTA from "@/components/FloatingCTA";
@@ -87,9 +87,9 @@ export default function Home() {
         <Treatments />
         <Pricing />
         <DoctorProfile />
+        <VideoTestimonials />
         <SocialProof />
         <BookingForm />
-        <VisitUs />
         <FAQ />
       </main>
       <Footer />
