@@ -1,17 +1,18 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Marquee from "@/components/Marquee";
-import WhyChooseUs from "@/components/WhyChooseUs";
-import ThreeDaySection from "@/components/ThreeDaySection";
-import Treatments from "@/components/Treatments";
-import Pricing from "@/components/Pricing";
+import ImplantTypes from "@/components/ImplantTypes";
+import BeforeAfterGallery from "@/components/BeforeAfterGallery";
+import WhyTreatments from "@/components/WhyTreatments";
 import DoctorProfile from "@/components/DoctorProfile";
+import ClinicPhotos from "@/components/ClinicPhotos";
 import VideoTestimonials from "@/components/VideoTestimonials";
 import SocialProof from "@/components/SocialProof";
 import BookingForm from "@/components/BookingForm";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
 import FloatingCTA from "@/components/FloatingCTA";
+import PopupForm from "@/components/PopupForm";
 import { site, mapsHref } from "@/config/site";
 import { FAQS } from "@/config/faqs";
 
@@ -82,11 +83,11 @@ export default function Home() {
       <main>
         <Hero />
         <Marquee />
-        <WhyChooseUs />
-        <ThreeDaySection />
-        <Treatments />
-        <Pricing />
+        <ImplantTypes />
+        <BeforeAfterGallery />
+        <WhyTreatments />
         <DoctorProfile />
+        <ClinicPhotos />
         <VideoTestimonials />
         <SocialProof />
         <BookingForm />
@@ -94,6 +95,7 @@ export default function Home() {
       </main>
       <Footer />
       <FloatingCTA />
+      <PopupForm />
     </>
   );
 }

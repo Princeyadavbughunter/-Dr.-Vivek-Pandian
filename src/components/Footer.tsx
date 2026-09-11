@@ -4,9 +4,7 @@ import { site, telHref, mapsHref } from "@/config/site";
 
 const LINKS = [
   { label: "Why Choose Us", href: "#why" },
-  { label: "3-Day Teeth Protocol", href: "#three-day" },
   { label: "Treatments", href: "#treatments" },
-  { label: "Pricing & EMI", href: "#pricing" },
   { label: "Meet Dr. Vivek", href: "#doctor" },
   { label: "FAQs", href: "#faq" },
 ];

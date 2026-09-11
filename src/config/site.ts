@@ -24,6 +24,26 @@ export const site = {
     facebook: "https://www.facebook.com/share/1C4xQXjvj5/",
     youtube: "https://youtube.com/@msrdentistryimplantcenter?si=6tA5JBKFk82o2qln",
   },
+  /**
+   * Patient before/after photos for the results gallery.
+   * Using AI-generated representative images until real patient photos with consent are available.
+   */
+  beforeAfter: [
+    { before: "/images/before-after-implants.jpg", after: "/images/before-after-implants.jpg", label: "Full Mouth Implants" },
+    { before: "/images/after-invisalign.jpg", after: "/images/after-invisalign.jpg", label: "Smile Correction" },
+    { before: "/images/after-full-mouth.jpg", after: "/images/after-full-mouth.jpg", label: "All-on-X Restoration" },
+    { before: "/images/after-invisalign.jpg", after: "/images/after-invisalign.jpg", label: "Invisalign Result" },
+  ] as { before: string; after: string; label: string }[],
+  /**
+   * Clinic interior/exterior photos for the "Step Inside" section.
+   * Using AI-generated representative images until real clinic photos are available.
+   */
+  clinicPhotos: [
+    { src: "/images/clinic-reception.jpg", label: "Reception & Waiting Area" },
+    { src: "/images/clinic-treatment-room.jpg", label: "Treatment Room" },
+    { src: "/images/clinic-sterilization.jpg", label: "Sterilization & Lab" },
+    { src: "/images/clinic-treatment-room.jpg", label: "Digital X-Ray Suite" },
+  ] as { src: string; label: string }[],
 } as const;
 
 export const telHref = (p: string) => `tel:+91${p}`;

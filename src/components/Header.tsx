@@ -8,9 +8,7 @@ import { site, telHref } from "@/config/site";
 
 const NAV = [
   { label: "Why Us", href: "#why" },
-  { label: "3-Day Teeth", href: "#three-day" },
   { label: "Treatments", href: "#treatments" },
-  { label: "Pricing", href: "#pricing" },
   { label: "Dr. Vivek", href: "#doctor" },
   { label: "Visit Us", href: "#visit" },
 ];
