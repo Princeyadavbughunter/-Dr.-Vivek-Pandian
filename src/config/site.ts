@@ -8,9 +8,9 @@ export const site = {
   doctorPhoto: "/dr.png",
   teamSize: 25,
   implantPrice: "₹22,000",
-  phones: ["9710442527", "7397283777"],
+  phones: ["7397283777", "9677541148"],
   email: "msrdentistry@gmail.com",
-  whatsapp: "919710442527",
+  whatsapp: "917397283777",
   timings: "Monday – Sunday · 8:30 AM – 8:30 PM",
   address: {
     line1: "No. 68, Vallalar Illam, Anna Street",
